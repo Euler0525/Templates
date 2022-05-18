@@ -1,0 +1,204 @@
+{
+    "latex-workshop.latex.autoBuild.run": "never",
+    "latex-workshop.showContextMenu": true,
+    "latex-workshop.intellisense.package.enabled": true,
+    "latex-workshop.message.error.show": false,
+    "latex-workshop.message.warning.show": false,
+    "latex-workshop.latex.tools": [
+        {
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOCFILE%"
+            ]
+        },
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOCFILE%"
+            ]
+        },
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-pdf",
+                "-outdir=%OUTDIR%",
+                "%DOCFILE%"
+            ]
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ]
+        }
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "XeLaTeX",
+            "tools": [
+                "xelatex"
+            ]
+        },
+        {
+            "name": "PDFLaTeX",
+            "tools": [
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "BibTeX",
+            "tools": [
+                "bibtex"
+            ]
+        },
+        {
+            "name": "LaTeXmk",
+            "tools": [
+                "latexmk"
+            ]
+        },
+        {
+            "name": "xelatex -> bibtex -> xelatex*2",
+            "tools": [
+                "xelatex",
+                "bibtex",
+                "xelatex",
+                "xelatex"
+            ]
+        },
+        {
+            "name": "pdflatex -> bibtex -> pdflatex*2",
+            "tools": [
+                "pdflatex",
+                "bibtex",
+                "pdflatex",
+                "pdflatex"
+            ]
+        },
+    ],
+    "latex-workshop.latex.clean.fileTypes": [
+        "*.aux",
+        "*.bbl",
+        "*.blg",
+        "*.idx",
+        "*.ind",
+        "*.lof",
+        "*.lot",
+        "*.out",
+        "*.toc",
+        "*.acn",
+        "*.acr",
+        "*.alg",
+        "*.glg",
+        "*.glo",
+        "*.gls",
+        "*.ist",
+        "*.fls",
+        "*.log",
+        "*.fdb_latexmk"
+    ],
+    "latex-workshop.latex.autoClean.run": "onFailed",
+    "latex-workshop.latex.recipe.default": "lastUsed",
+    "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.mouseWheelZoom": true,
+    "editor.accessibilityPageSize": 11,
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "security.workspace.trust.banner": "always",
+    "security.workspace.trust.startupPrompt": "always",
+    "security.workspace.trust.untrustedFiles": "open",
+    "tabnine.experimentalAutoImports": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.saveFileBeforeRun": true,
+    "C_Cpp.updateChannel": "Insiders",
+    "bracketPairColorizer.depreciation-notice": false,
+    "editor.wordWrap": "on",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.colorTheme": "GitHub Dark",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "files.autoGuessEncoding": true,
+    "workbench.startupEditor": "none",
+
+    "editor.fontSize": 20,
+    "C_Cpp.updateChannel": "Insiders",
+    "files.autoGuessEncoding": true,
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+
+
+    "vim.commandLineModeKeyBindingsNonRecursive": [],
+    "vim.insertModeKeyBindings": [],
+    "vim.normalModeKeyBindingsNonRecursive": [],
+    "editor.acceptSuggestionOnEnter": "smart",
+    "workbench.panel.defaultLocation": "right",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>"]
+        }
+    ],
+
+    "git.ignoreMissingGitWarning": true,
+    "editor.lineNumbers": "relative",
+
+    "explorer.confirmDelete": false,
+    "vscode-office.openOutline": true,
+    "leetcode.endpoint": "leetcode-cn",
+    "markdown.preview.lineHeight": 1.5,
+    "leetcode.hint.configWebviewMarkdown": false,
+    "leetcode.hint.commandShortcut": false,
+    "leetcode.workspaceFolder": "E:\\Files\\LeetCode",
+    "terminal.integrated.fontSize": 17,
+    "editor.fontFamily": "Consolas",
+    "vscode-edge-devtools.mirrorEdits": true,
+    "scm.inputFontSize": 14,
+
+        "background.useDefault": false,
+        "background.style": {
+            "content": "''",
+            "pointer-events": "none",
+            "position": "absolute",
+            "bottom": "0px",
+            "right": "0",
+            "z-index": "99999",
+            "width": "100%",
+            "height": "100%",
+            "background-position": "0% 0%",
+            "background-size": "cover",
+            "background-repeat": "no-repeat",
+            "opacity": 0.1
+        },
+        "background.customImages":
+        [
+            "file:///E:/Pictures/Euler/Code.png"
+        ],
+        "vim.useCtrlKeys": false,
+        "bracket-pair-colorizer-2.depreciation-notice": false,
+        "python.defaultInterpreterPath": "C:\\Users\\Euler0525\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "python.diagnostics.sourceMapsEnabled": true,
+
+}
