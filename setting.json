@@ -113,7 +113,6 @@
     "latex-workshop.latex.autoClean.run": "onFailed",
     "latex-workshop.latex.recipe.default": "lastUsed",
     "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click",
-    "workbench.iconTheme": "material-icon-theme",
     "editor.mouseWheelZoom": true,
     "editor.accessibilityPageSize": 11,
     "editor.rulers": [
@@ -123,17 +122,9 @@
     "security.workspace.trust.banner": "always",
     "security.workspace.trust.startupPrompt": "always",
     "security.workspace.trust.untrustedFiles": "open",
-    "tabnine.experimentalAutoImports": true,
-    "code-runner.runInTerminal": true,
-    "code-runner.saveAllFilesBeforeRun": true,
-    "code-runner.saveFileBeforeRun": true,
-    "C_Cpp.updateChannel": "Insiders",
-    "bracketPairColorizer.depreciation-notice": false,
     "editor.wordWrap": "on",
     "latex-workshop.view.pdf.viewer": "tab",
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "workbench.colorTheme": "GitHub Dark",
     "editor.quickSuggestions": {
         "other": true,
         "comments": true,
@@ -143,8 +134,6 @@
     "workbench.startupEditor": "none",
 
     "editor.fontSize": 20,
-    "C_Cpp.updateChannel": "Insiders",
-    "files.autoGuessEncoding": true,
     "[c]": {
         "editor.defaultFormatter": "ms-vscode.cpptools"
     },
@@ -154,7 +143,6 @@
     "vim.insertModeKeyBindings": [],
     "vim.normalModeKeyBindingsNonRecursive": [],
     "editor.acceptSuggestionOnEnter": "smart",
-    "workbench.panel.defaultLocation": "right",
     "vim.insertModeKeyBindings": [
         {
             "before": ["j", "k"],
@@ -166,39 +154,21 @@
     "editor.lineNumbers": "relative",
 
     "explorer.confirmDelete": false,
-    "vscode-office.openOutline": true,
     "leetcode.endpoint": "leetcode-cn",
     "markdown.preview.lineHeight": 1.5,
     "leetcode.hint.configWebviewMarkdown": false,
     "leetcode.hint.commandShortcut": false,
     "leetcode.workspaceFolder": "E:\\Files\\LeetCode",
-    "terminal.integrated.fontSize": 17,
     "editor.fontFamily": "Consolas",
-    "vscode-edge-devtools.mirrorEdits": true,
     "scm.inputFontSize": 14,
 
-        "background.useDefault": false,
-        "background.style": {
-            "content": "''",
-            "pointer-events": "none",
-            "position": "absolute",
-            "bottom": "0px",
-            "right": "0",
-            "z-index": "99999",
-            "width": "100%",
-            "height": "100%",
-            "background-position": "0% 0%",
-            "background-size": "cover",
-            "background-repeat": "no-repeat",
-            "opacity": 0.1
-        },
-        "background.customImages":
-        [
-            "file:///E:/Pictures/Euler/Code.png"
-        ],
         "vim.useCtrlKeys": false,
-        "bracket-pair-colorizer-2.depreciation-notice": false,
-        "python.defaultInterpreterPath": "C:\\Users\\Euler0525\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
-        "python.diagnostics.sourceMapsEnabled": true,
+        "workbench.colorTheme": "GitHub Light Default",
+        "tabnine.experimentalAutoImports": true,
+        "terminal.external.windowsExec": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+        "terminal.integrated.fontFamily": "JetBrainsMono NF",
+        "terminal.integrated.fontSize": 17,
+        "leetcode.hint.setDefaultLanguage": false,
+        "leetcode.hint.commentDescription": false,
 
 }
